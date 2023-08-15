@@ -1,0 +1,17 @@
+{
+  "name": "docstomarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs-to-markdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert" : "node docs-to-markdown.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opendocsg/pdf2md": "^0.1.26",
+    "mammoth": "^1.6.0",
+    "pdf2md": "^1.0.2"
+  }
+}
